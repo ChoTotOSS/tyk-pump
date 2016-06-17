@@ -94,6 +94,27 @@ Create a `pump.conf` file:
                         "org_id",
                         "oauth_id"]
             }
+        },
+        "graylog": {
+          "name": "graylog",
+          "meta": {
+            "host": "10.60.6.15",
+            "port": 12216,
+            "tags": [
+              "method",
+              "path",
+              "response_code",
+              "api_key",
+              "api_version",
+              "api_name",
+              "api_id",
+              "org_id",
+              "oauth_id",
+              "raw_request",
+              "request_time",
+              "raw_response"
+            ]
+          }
         }
     },
     "uptime_pump_config": {
